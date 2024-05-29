@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #dada16;
+    outline: none;
+}
+.container{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #fff,
+                        5px 5px 12px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+}
+
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #fff,
+                inset 5px 5px 12px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 30px;
+    text-align: end;
+    font-size: 50px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: rgb(70, 70,70);
+}
+
+button{
+    height: 52px;
+    width: 52px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #fff,
+                inset 5px 5px 12px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 50px;
+    margin: 8px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.equal{
+    width: 120px;
+    font-size: 25px;
+    border-radius: 40px;
+    box-shadow: inset -5px -5px 12px #fff,
+                inset 5px 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.symbol1, .symbol2, .symbol3, .symbol4{
+    font-size: 20px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #ecf0f3;
+}
